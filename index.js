@@ -1,1 +1,2 @@
-module.exports = require('./lib/pcsclite');
+const nodeGypBuild = require('node-gyp-build');
+module.exports = nodeGypBuild(__dirname);
